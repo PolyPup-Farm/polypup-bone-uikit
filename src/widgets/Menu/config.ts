@@ -117,7 +117,16 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/PolyPupFarm"
+    items: [
+      {
+        label: "Group",
+        href: "https://t.me/PolyPupFarm",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/PolyPupAnnouncement",
+      }
+    ]
   },
   {
     label: "Twitter",
